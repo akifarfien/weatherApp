@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 
 
 const routes: Routes = [
-  {path:'home', component: AppComponent},
-  {path:'', redirectTo:'login', pathMatch:'full'},
-  {path: '**', redirectTo: 'home', pathMatch:'full' }
+  {path:'report', component: AppComponent},
+  {path:'', redirectTo:'report', pathMatch:'full'},
+  {path: '**', redirectTo: 'report', pathMatch:'full' }
 ];
 
 @NgModule({
